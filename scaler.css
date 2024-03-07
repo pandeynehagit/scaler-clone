@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.s-container{
+    display: flex;
+    height:250px;
+    justify-content: space-between;
+    background-color:bisque;
+   
+}
+.s-container:hover{
+    background-color: lightblue;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    height:245px;
+    width:100%;
+    background-color: white;
+
+}
+.first-block{
+ height:245px;
+ width: 25%;
+ 
+ overflow: hidden;
+
+}
+.first-block img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.first-block:hover{
+    background-color:gray ;
+}
+.founder-image{
+ height:245px;
+ width: 25%px;
+ overflow: hidden;
+}
+.founder-image img{
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.founder-image :hover{
+    background-color:gray;
+}
+.banner-tag-line{
+    justify-content: center;
+    margin-right: 10px;
+    height:245px;
+    width:15%;
+    padding-right: 40px;;
+    overflow: hidden;
+}
+.banner-tag-line:hover{
+    background-color: lightgray;
+}
+.banner-tag-line img{
+    margin-top: 5px;;
+}
+.banner-tag-line img:hover{
+   
+    background-color: lightgreen;
+}
+.line{
+  width:100%;
+ margin-top: 10px;
+ color:rgb(33, 89, 230);
+ font-size: 24px;
+}
+.line:hover{
+    background-color: lightgreen;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    height:60px;
+    width: 100%;
+    background-color: rgb(185, 19, 19);
+    color:white;
+    font-size: 20px;
+    }
+    .explore-link{
+        color: white;
+        text-decoration: none;
+    }
+    .fa-arrow-right{
+        text-align: end;
+    }
+    
+
+.last-block{
+    height:245px;
+    width: 25%;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+.icon{
+    height: 50px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 50%;;
+    text-align:left;
+    font-size: 50px;
+    color: rgb(13, 83, 158);
+}
+.icon:hover{
+    background-color: lightgrey;
+}
+.last-block img{
+    margin-left: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.last-block:hover{
+    background-color:gray;
+}
+
+
