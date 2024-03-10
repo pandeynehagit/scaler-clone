@@ -56,6 +56,7 @@
     width:15%;
     padding-right: 40px;;
     overflow: hidden;
+    object-fit: contain;
 }
 .banner-tag-line:hover{
     background-color: lightgray;
